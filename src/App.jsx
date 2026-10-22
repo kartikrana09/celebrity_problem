@@ -224,6 +224,7 @@ function App() {
           <a href="#matrix-simulation">Matrix Simulation</a>
           <a href="#stack-simulation">Stack Simulation</a>
           <a href="#algorithm">Algorithm</a>
+          <a href="#connect">Connect</a>
         </nav>
         <span className="topbar-status"><i /> INTERACTIVE LESSON</span>
       </header>
@@ -419,6 +420,25 @@ function App() {
             <div className="logic-row"><span className="logic-number">02</span><code>M[a][b] = 0</code><p>a does not know b → <b>eliminate b</b>; b cannot be the celebrity.</p></div>
             <div className="complexity-row"><div><small>TIME COMPLEXITY</small><b>O(N)</b><span>Initialization, elimination, and verification are each linear.</span></div><div><small>AUXILIARY SPACE</small><b>O(N)</b><span>The stack stores at most N candidates.</span></div></div>
             <div className="single-note"><span>i</span><p><b>Single-person convention:</b> If the group has one person, that person is a celebrity by vacuous truth (there are no other people to violate either rule). The visualizer’s group-size control starts at 2, but the algorithm engine explicitly supports N = 1.</p></div>
+          </div>
+        </section>
+        <section className="section-wrap connect-section" id="connect">
+          <div className="connect-copy">
+            <span className="section-kicker">LET’S CONNECT</span>
+            <h2>Kartik Rana</h2>
+            <p>Thanks for exploring this DSA visualizer. Find me on GitHub or LinkedIn.</p>
+          </div>
+          <div className="connect-links">
+            <a className="connect-link" href="https://github.com/kartikrana09" target="_blank" rel="noreferrer">
+              <span className="connect-icon" aria-hidden="true">GH</span>
+              <span><small>GITHUB</small><b>kartikrana09</b></span>
+              <span className="connect-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a className="connect-link" href="https://www.linkedin.com/in/kartik-rana-53bb1637b/" target="_blank" rel="noreferrer">
+              <span className="connect-icon linkedin-icon" aria-hidden="true">in</span>
+              <span><small>LINKEDIN</small><b>Kartik Rana</b></span>
+              <span className="connect-arrow" aria-hidden="true">↗</span>
+            </a>
           </div>
         </section>
       </main>

@@ -293,6 +293,18 @@ select { background: #0e1721; border: 1px solid #314153; border-radius: 5px; min
 .single-note > span { color: var(--amber); border: 1px solid rgba(245,184,93,.25); border-radius: 50%; width: 17px; height: 17px; flex: 0 0 auto; text-align: center; font: 10px var(--mono); }
 .single-note p { color: #8e9eb0; font-size: 9px; line-height: 1.6; margin: 0; }
 .single-note p b { color: #c4d0dc; }
+.connect-section { padding: 34px 0 48px; border-top: 1px solid var(--line-soft); display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+.connect-copy h2 { margin: 9px 0 7px; font: 500 28px var(--display); letter-spacing: -.035em; }
+.connect-copy p { color: var(--muted); font-size: 10px; line-height: 1.6; margin: 0; }
+.connect-links { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.connect-link { min-width: 0; display: flex; align-items: center; gap: 10px; padding: 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 7px; transition: border-color .18s, background .18s; }
+.connect-link:hover { border-color: rgba(87,214,186,.42); background: var(--panel-raised); }
+.connect-icon { width: 30px; height: 30px; flex: 0 0 auto; display: grid; place-items: center; border: 1px solid #35485b; border-radius: 6px; color: #d4dfeb; font: 9px var(--mono); }
+.linkedin-icon { color: var(--blue); border-color: rgba(131,169,255,.3); font: 600 12px var(--display); }
+.connect-link > span:nth-child(2) { min-width: 0; display: grid; gap: 4px; }
+.connect-link small { color: #75889b; font: 7px var(--mono); letter-spacing: .08em; }
+.connect-link b { overflow: hidden; color: #d0dbe6; text-overflow: ellipsis; white-space: nowrap; font: 500 10px var(--display); }
+.connect-arrow { margin-left: auto; color: var(--teal); font-size: 12px; }
 .footer { min-height: 72px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line-soft); }
 .footer > span, .footer > a:last-child { color: #738498; font-size: 9px; }
 .footer > a:last-child { font: 8px var(--mono); }
@@ -392,6 +404,8 @@ select { background: #0e1721; border: 1px solid #314153; border-radius: 5px; min
   .survivor-callout { flex-wrap: wrap; }
   .survivor-callout span { width: 100%; }
   .algorithm-section { padding: 52px 0 60px; grid-template-columns: 1fr; gap: 22px; }
+  .connect-section { padding: 30px 0 38px; grid-template-columns: 1fr; gap: 17px; }
+  .connect-links { grid-template-columns: 1fr 1fr; }
   .algorithm-intro h2 { font-size: 34px; }
   .logic-row { grid-template-columns: 20px 105px 1fr; gap: 9px; }
   .logic-row p { line-height: 1.5; }
